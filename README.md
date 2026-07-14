@@ -1,5 +1,7 @@
 # Mouse Synchronization
 
+🌐 **English** · [Tiếng Việt](README.vi.md) · [বাংলা](README.bn.md) · [हिन्दी](README.hi.md) · [Português (BR)](README.pt_BR.md) · [Русский](README.ru.md) · [Türkçe](README.tr.md) · [اردو](README.ur.md) · [简体中文](README.zh_CN.md)
+
 **Control many windows at once with a single mouse.**
 
 Mouse Synchronization lets you pick one window as the "leader" and copies whatever
