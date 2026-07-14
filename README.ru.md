@@ -8,6 +8,9 @@ Mouse Synchronization позволяет выбрать одно окно в к�
 
 Создано командой **Duck Martians** · [duckmartians.info](https://duckmartians.info)
 
+<img width="1052" height="792" alt="image" src="https://github.com/user-attachments/assets/57c22608-46a6-4206-adde-aa456440619e" />
+<img width="1919" height="1032" alt="image" src="https://github.com/user-attachments/assets/c93fee4f-a696-451e-894b-94fe3312fd58" />
+
 ---
 
 ## С чего начать
