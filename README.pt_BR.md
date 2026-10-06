@@ -28,7 +28,7 @@ Baixe a versão mais recente em **[Releases](https://github.com/duckmartians/Mou
 
 | Seu computador | Download | Observações |
 |---|---|---|
-| 🪟 **Windows** | [Windows (.zip)](https://github.com/duckmartians/Mouse-Synchronization/releases/latest) | O arquivo se chama `Mouse-Synchronization_v<versão>.zip`. Não há versão para macOS. |
+| 🪟 **Windows** | [Windows (.zip)](https://github.com/duckmartians/Mouse-Synchronization/releases/latest) | O arquivo se chama [`Mouse-Synchronization_v<versão>.zip`](https://github.com/duckmartians/Mouse-Synchronization/releases/latest). Não há versão para macOS. |
 
 ### Passo 2 — Descompactar e executar
 

@@ -28,7 +28,7 @@
 
 | آپ کا کمپیوٹر | ڈاؤن لوڈ | نوٹ |
 |---|---|---|
-| 🪟 **Windows** | [Windows (.zip)](https://github.com/duckmartians/Mouse-Synchronization/releases/latest) | فائل کا نام `Mouse-Synchronization_v<ورژن>.zip` ہے۔ macOS ورژن موجود نہیں۔ |
+| 🪟 **Windows** | [Windows (.zip)](https://github.com/duckmartians/Mouse-Synchronization/releases/latest) | فائل کا نام [`Mouse-Synchronization_v<ورژن>.zip`](https://github.com/duckmartians/Mouse-Synchronization/releases/latest) ہے۔ macOS ورژن موجود نہیں۔ |
 
 ### مرحلہ 2 — ان زِپ کریں اور چلائیں
 

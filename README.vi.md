@@ -28,7 +28,7 @@ Tải bản mới nhất từ **[Releases](https://github.com/duckmartians/Mouse
 
 | Máy của bạn | Tải tệp | Ghi chú |
 |---|---|---|
-| 🪟 **Windows** | [Windows (.zip)](https://github.com/duckmartians/Mouse-Synchronization/releases/latest) | Tệp có tên `Mouse-Synchronization_v<phiên bản>.zip`. Không có bản macOS. |
+| 🪟 **Windows** | [Windows (.zip)](https://github.com/duckmartians/Mouse-Synchronization/releases/latest) | Tệp có tên [`Mouse-Synchronization_v<phiên bản>.zip`](https://github.com/duckmartians/Mouse-Synchronization/releases/latest). Không có bản macOS. |
 
 ### Bước 2 — Giải nén và chạy
 

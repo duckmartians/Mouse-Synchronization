@@ -28,7 +28,7 @@
 
 | 你的电脑 | 下载 | 说明 |
 |---|---|---|
-| 🪟 **Windows** | [Windows (.zip)](https://github.com/duckmartians/Mouse-Synchronization/releases/latest) | 文件名为 `Mouse-Synchronization_v<版本号>.zip`。没有 macOS 版本。 |
+| 🪟 **Windows** | [Windows (.zip)](https://github.com/duckmartians/Mouse-Synchronization/releases/latest) | 文件名为 [`Mouse-Synchronization_v<版本号>.zip`](https://github.com/duckmartians/Mouse-Synchronization/releases/latest)。没有 macOS 版本。 |
 
 ### 第 2 步 — 解压并运行
 

@@ -28,7 +28,7 @@
 
 | আপনার কম্পিউটার | ডাউনলোড | নোট |
 |---|---|---|
-| 🪟 **Windows** | [Windows (.zip)](https://github.com/duckmartians/Mouse-Synchronization/releases/latest) | ফাইলের নাম `Mouse-Synchronization_v<সংস্করণ>.zip`। macOS সংস্করণ নেই। |
+| 🪟 **Windows** | [Windows (.zip)](https://github.com/duckmartians/Mouse-Synchronization/releases/latest) | ফাইলের নাম [`Mouse-Synchronization_v<সংস্করণ>.zip`](https://github.com/duckmartians/Mouse-Synchronization/releases/latest)। macOS সংস্করণ নেই। |
 
 ### ধাপ ২ — আনজিপ করে চালান
 

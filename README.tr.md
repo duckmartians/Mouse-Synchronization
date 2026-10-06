@@ -28,7 +28,7 @@ En son sürümü **[Releases](https://github.com/duckmartians/Mouse-Synchronizat
 
 | Bilgisayarınız | İndir | Not |
 |---|---|---|
-| 🪟 **Windows** | [Windows (.zip)](https://github.com/duckmartians/Mouse-Synchronization/releases/latest) | Dosyanın adı `Mouse-Synchronization_v<sürüm>.zip`. macOS sürümü yoktur. |
+| 🪟 **Windows** | [Windows (.zip)](https://github.com/duckmartians/Mouse-Synchronization/releases/latest) | Dosyanın adı [`Mouse-Synchronization_v<sürüm>.zip`](https://github.com/duckmartians/Mouse-Synchronization/releases/latest). macOS sürümü yoktur. |
 
 ### Adım 2 — Zipten çıkarın ve çalıştırın
 

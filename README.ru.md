@@ -28,7 +28,7 @@
 
 | Ваш компьютер | Скачать | Примечание |
 |---|---|---|
-| 🪟 **Windows** | [Windows (.zip)](https://github.com/duckmartians/Mouse-Synchronization/releases/latest) | Файл называется `Mouse-Synchronization_v<версия>.zip`. Версии для macOS нет. |
+| 🪟 **Windows** | [Windows (.zip)](https://github.com/duckmartians/Mouse-Synchronization/releases/latest) | Файл называется [`Mouse-Synchronization_v<версия>.zip`](https://github.com/duckmartians/Mouse-Synchronization/releases/latest). Версии для macOS нет. |
 
 ### Шаг 2 — Распакуйте и запустите
 
