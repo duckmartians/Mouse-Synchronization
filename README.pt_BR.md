@@ -1,177 +1,163 @@
-# Mouse Synchronization
+<h1 align="center">Mouse Synchronization</h1>
 
-🌐 [English](README.md) · [Tiếng Việt](README.vi.md) · [বাংলা](README.bn.md) · [हिन्दी](README.hi.md) · **Português (BR)** · [Русский](README.ru.md) · [Türkçe](README.tr.md) · [اردو](README.ur.md) · [简体中文](README.zh_CN.md)
+<p align="center"><b>Controle várias janelas ao mesmo tempo com um único mouse — clique, role e arraste em uma janela líder, e todas as outras janelas da lista fazem exatamente o mesmo, no mesmo instante.</b></p>
 
-**Controle várias janelas ao mesmo tempo com um único mouse.**
+<p align="center">
+  <a href="README.md">English</a> ·
+  <a href="README.vi.md">Tiếng Việt</a> ·
+  <a href="README.bn.md">বাংলা</a> ·
+  <a href="README.hi.md">हिन्दी</a> ·
+  <b>Português (BR)</b> ·
+  <a href="README.ru.md">Русский</a> ·
+  <a href="README.tr.md">Türkçe</a> ·
+  <a href="README.ur.md">اردو</a> ·
+  <a href="README.zh_CN.md">简体中文</a>
+</p>
 
-O Mouse Synchronization permite escolher uma janela como a "líder" e copia tudo o que você faz nela — cliques, rolagem e arrastar — para quantas outras janelas você quiser, todas ao mesmo tempo. É perfeito quando você tem várias cópias do mesmo aplicativo abertas e está cansado de repetir a mesma ação em cada uma.
-
-Feito por **Duck Martians** · [duckmartians.info](https://duckmartians.info)
-
-<img width="1052" height="792" alt="image" src="https://github.com/user-attachments/assets/57c22608-46a6-4206-adde-aa456440619e" />
-<img width="1919" height="1032" alt="image" src="https://github.com/user-attachments/assets/c93fee4f-a696-451e-894b-94fe3312fd58" />
-
----
-
-## Primeiros passos
-
-1. Abra as janelas ou aplicativos que você quer controlar (por exemplo, várias cópias do mesmo programa).
-2. Abra o **Mouse Synchronization** (execute o aplicativo).
-3. Siga os 5 passos abaixo.
-
-É só isso — sem configuração, sem conta.
+<p align="center">
+  <a href="https://github.com/duckmartians/Mouse-Synchronization/releases/latest"><img alt="Baixar para Windows" src="https://img.shields.io/badge/Baixar-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white"></a>
+</p>
 
 ---
 
-## Use em 5 passos
+## Instalação
 
-1. **Encontre suas janelas.** O painel da esquerda, **Janelas abertas**, mostra tudo o que está
-   aberto no momento. Suas janelas de destino estão ali.
-2. **Adicione-as à lista de sincronização.** Clique no **➕** verde ao lado de uma janela (ou selecione
-   várias e clique em **Adicionar →**). Elas vão para o painel da direita, **Lista de sincronização**.
-3. **Escolha a líder.** Na Lista de sincronização, clique na **estrela ☆** ao lado da janela que
-   você quer usar para controlar. Ela fica **dourada ★** — essa passa a ser a sua janela principal.
-4. **Clique em Iniciar.** Clique no botão verde **Iniciar** (ou pressione **Ctrl + 1**).
-5. **Use sua janela líder.** Clique, role ou clique e arraste dentro da janela principal,
-   e todas as outras janelas da lista fazem exatamente a mesma coisa no mesmo instante.
+### Passo 1 — Baixar
 
-Para parar, clique em **Parar sincronização** (ou **Ctrl + 2**). Para uma pausa rápida sem parar,
-clique em **Pausar**.
+Baixe a versão mais recente em **[Releases](https://github.com/duckmartians/Mouse-Synchronization/releases/latest)**:
 
-> Você precisa ter uma janela principal escolhida **e pelo menos 2 janelas** na lista de sincronização antes que o Iniciar funcione.
+| Seu computador | Download | Observações |
+|---|---|---|
+| 🪟 **Windows** | [Windows (.zip)](https://github.com/duckmartians/Mouse-Synchronization/releases/latest) | O arquivo se chama `Mouse-Synchronization_v<versão>.zip`. Não há versão para macOS. |
+
+### Passo 2 — Descompactar e executar
+
+<details open>
+<summary><b>🪟 No Windows</b></summary>
+
+1. **Descompacte** o arquivo `.zip` baixado em qualquer pasta (clique com o botão direito → **Extrair Tudo…**). Não há instalador.
+2. Abra a pasta extraída e execute **`Mouse Synchronization.exe`**.
+3. Se aparecer **"O Windows protegeu o computador"** (SmartScreen): clique em **Mais informações** → **Executar assim mesmo**. *(O app não é assinado com um certificado da Microsoft, por isso pode ser sinalizado — não é vírus.)*
+4. Mantenha a pasta inteira junta — o `.exe` precisa dos arquivos ao lado dele. Para remover o app, basta excluir a pasta.
+
+</details>
+
+### Passo 3 — Grátis, sem conta
+
+O Mouse Synchronization é **gratuito**: sem conta, sem chave de ativação, sem anúncios. Não precisa de direitos de administrador para janelas normais (veja a seção Solução de problemas abaixo para janelas executadas como administrador).
 
 ---
 
-## O que cada parte da tela faz
+## Primeira execução
 
-### Painel da esquerda — Janelas abertas
+1. **Abra as janelas que você quer controlar** — por exemplo, várias cópias do mesmo programa.
+2. **Execute o Mouse Synchronization.** O painel esquerdo, **Janelas abertas**, lista tudo o que está aberto.
+3. **Adicione-as à lista de sincronização.** Clique no **➕** verde ao lado de uma janela (ou selecione várias e pressione **Adicionar →**). Elas vão para o painel direito, **Lista de sincronização**. São necessárias **pelo menos 2 janelas**.
+4. **Escolha a líder.** Na Lista de sincronização, clique na **estrela ☆** ao lado da janela pela qual você quer controlar. Ela fica **dourada ★** — essa é a sua janela principal.
+5. **Pressione Iniciar** (ou **Ctrl + 1**).
+6. **Use a janela líder.** Clique, role ou clique e arraste dentro dela, e todas as outras janelas da lista fazem o mesmo no mesmo instante.
+
+Para parar, clique em **Parar sincronização** (ou **Ctrl + 2**). Para uma pausa rápida sem parar, pressione **Pausar** (**Alt + 1**).
+
+---
+
+## Recursos
+
+<img width="1052" height="792" alt="Mouse Synchronization" src="https://github.com/user-attachments/assets/57c22608-46a6-4206-adde-aa456440619e" />
+<img width="1919" height="1032" alt="Mouse Synchronization" src="https://github.com/user-attachments/assets/c93fee4f-a696-451e-894b-94fe3312fd58" />
+
+- **Um mouse, várias janelas** — cliques esquerdo, direito e do meio, rolagem e clicar e arrastar dentro da janela líder são enviados ao mesmo tempo para todas as janelas da Lista de sincronização. Só o mouse é sincronizado, não o teclado.
+- **Sincronizar pela proporção da janela** — quando as janelas têm tamanhos ou posições diferentes, as ações são casadas pela posição *relativa* em vez de coordenadas exatas.
+- **Encontre e adicione janelas rápido** — lista de janelas ao vivo com caixa de busca, **Adicionar correspondentes** para um lote inteiro de uma vez e um filtro pela área de trabalho virtual atual.
+- **Organizar em grade** — arruma suas janelas sincronizadas em uma grade uniforme nos monitores que você escolher.
+- **Abrir mais janelas** — abre de 1 a 20 cópias extras do programa por trás de uma janela.
+- **Atalhos personalizáveis** — Iniciar, Parar e Pausar / Retomar, lembrados entre as sessões.
+- **Selo de status flutuante** — verde ao sincronizar, âmbar quando pausado; clique nele para pausar ou retomar.
+- **Execute várias cópias da ferramenta** — cada cópia tem seu próprio número e seu próprio atalho de Pausa.
+- **9 idiomas** — troque na hora pelo botão 🌐, sem reiniciar.
+
+---
+
+## A janela principal
+
+### 🪟 Painel esquerdo — Janelas abertas
+
 Uma lista ao vivo de todas as janelas abertas no seu computador.
 - **➕** — adiciona esta janela à lista de sincronização.
-- **👁 (olho)** — traz esta janela para a frente para você poder vê-la.
-- **Caixa de busca** — digite parte do nome de uma janela para filtrar a lista (por exemplo, digite
-  o nome de um programa para esconder todo o resto).
-- **Adicionar todas as correspondentes** — adiciona, em um clique, todas as janelas que correspondem à sua busca. Ótimo
-  quando você tem mais de 10 janelas para adicionar. (Este botão só funciona depois que você digita algo na caixa de busca.)
-- **Somente a Área de Trabalho atual** — esconde as janelas que ficam nas suas outras áreas de trabalho virtuais.
+- **👁** — traz esta janela para a frente para você vê-la.
+- **Caixa de busca** — digite parte do nome de uma janela para filtrar a lista.
+- **Adicionar correspondentes** — adiciona com um clique todas as janelas que correspondem à busca (funciona depois que você digita algo na caixa de busca). Ótimo quando há mais de 10 janelas para adicionar.
+- **Apenas a Área de Trabalho atual** — oculta as janelas que estão em outras áreas de trabalho virtuais.
 
-### Caixa "Abrir mais janelas"
-Quer mais cópias de um programa?
-1. Clique em uma janela na lista **Janelas abertas**.
-2. Defina quantas cópias você quer.
-3. Clique em **Abrir mais**.
+### ➕ Abrir mais janelas
 
-O aplicativo encontra o programa por trás daquela janela e abre cópias extras para você.
-(Alguns programas só permitem que uma cópia deles rode ao mesmo tempo — esses simplesmente vão fechar as
-cópias extras. Essa é uma regra do programa, não um problema aqui.)
+Quer mais cópias de um programa? Clique em uma janela na lista **Janelas abertas**, defina o **Nº de janelas** (1–20) e clique em **Abrir mais**. O app encontra o programa por trás daquela janela e abre cópias extras. Alguns programas só permitem uma cópia de si mesmos — eles fecham as extras sozinhos; é uma regra do programa, não um bug.
 
-### Coluna do meio — ações
-- **Adicionar → / ← Remover / Remover tudo** — mova janelas para dentro e para fora da lista de sincronização.
-- **Atualizar** — verifica novamente as janelas abertas (use se uma janela estiver faltando na lista).
-- **Organizar** — arruma automaticamente suas janelas de sincronização em uma grade organizada. Escolha qual
-  monitor (ou monitores) usar com as caixas de seleção em **Selecionar monitor** e clique em Organizar.
-- **Selecionar monitor** — marque as telas nas quais você quer organizar as janelas. A **estrela**
-  indica sua tela "principal" (isso é apenas um rótulo dentro do aplicativo — ele **não** altera
-  as suas configurações do Windows).
+### ↔️ Coluna do meio — ações
 
-### Painel da direita — Lista de sincronização
-As janelas que vão seguir a sua líder.
-- **Estrela ★** — escolha a janela líder (principal). Só uma pode ser a líder.
-- **👁 (olho)** — traz essa janela para a frente.
+- **Adicionar → / ← Remover / Remover tudo** — move janelas para dentro e para fora da lista de sincronização.
+- **Atualizar** — procura novamente as janelas abertas (use se uma janela estiver faltando).
+- **Organizar** — arruma as janelas sincronizadas em uma grade uniforme nos monitores marcados em **Selecionar monitor**.
+- **Selecionar monitor** — marque as telas onde organizar as janelas. A **estrela** indica sua tela "principal"; é apenas um rótulo dentro do app e **não** altera as configurações do Windows.
+
+### ⭐ Painel direito — Lista de sincronização
+
+As janelas que vão seguir a líder.
+- **Estrela ★** — escolhe a janela líder (principal). Apenas uma janela pode ser a líder.
+- **👁** — traz essa janela para a frente.
 - **➖** — remove esta janela da lista.
 
-### Barra inferior — controles
-- **Iniciar / Pausar / Parar** — inicie, pause ou pare a sincronização.
-- As pequenas caixas embaixo de cada botão são os **atalhos de teclado** (veja abaixo).
-- **Sincronizar pela proporção da janela** — **ative** esta opção se suas janelas tiverem tamanhos diferentes ou estiverem em
-  posições diferentes; assim ela combina as ações pela posição *relativa* em vez das coordenadas exatas.
-  Deixe **desativada** se todas as suas janelas tiverem o mesmo tamanho e estiverem alinhadas.
-- **🏠 Botão Início** — abre o site da Duck Martians.
-- **🌐 Botão de idioma** — muda o idioma do aplicativo.
+Enquanto uma janela está na lista de sincronização, o app acrescenta um pequeno número como `[1]`, `[2]` ao título para você diferenciá-las. Os títulos originais voltam quando você remove a janela ou fecha o app.
+
+### ▶️ Barra inferior — controles
+
+- **Iniciar / Pausar / Parar sincronização** — inicia, pausa ou para a sincronização. As caixinhas abaixo de cada botão são o atalho de teclado dele.
+- **Sincronizar pela proporção da janela** — **ative** se suas janelas têm tamanhos ou posições diferentes; deixe **desativado** se todas têm o mesmo tamanho e estão alinhadas.
+- **🏠** — abre o site da Duck Martians ([duckmartians.info](https://duckmartians.info)).
+- **🌐** — muda o idioma do app (English, Tiếng Việt, বাংলা, हिन्दी, Português (Brasil), Русский, Türkçe, اردو, 简体中文).
 
 ---
 
 ## Atalhos de teclado
 
-Você pode controlar tudo sem tocar nos botões:
-
 | Ação | Atalho padrão |
-|--------|------------------|
-| Iniciar  | **Ctrl + 1** |
-| Parar   | **Ctrl + 2** |
+|---|---|
+| Iniciar | **Ctrl + 1** |
+| Parar | **Ctrl + 2** |
 | Pausar / Retomar | **Alt + 1** |
 
-**Mudar um atalho:** clique em uma caixa de atalho, digite as teclas que você quer (por exemplo,
-`Ctrl` na primeira caixa e `F5` na segunda) e clique fora. As caixas de atalho ficam
-**bloqueadas durante a sincronização** — pare primeiro se quiser alterá-las.
+**Mudar um atalho:** clique em uma caixa de atalho, digite as teclas desejadas (por exemplo `Ctrl` na primeira caixa e `F5` na segunda) e clique fora. As caixas de atalho ficam **bloqueadas durante a sincronização** — pare primeiro para alterá-las. Seus atalhos são lembrados na próxima vez que você abrir o app.
 
-Seus atalhos são **lembrados** na próxima vez que você abrir o aplicativo.
+## Selo de status flutuante
 
----
+Quando a sincronização começa, um pequeno selo aparece no canto da tela: **verde** = sincronizando, **âmbar** = pausado. **Clique no selo** para pausar ou retomar — útil quando outras janelas cobrem o app. Ele some quando você pressiona Parar.
 
-## O selo de status flutuante
+## Executar várias cópias da ferramenta
 
-Quando a sincronização começa, um pequeno selo aparece no canto da sua tela:
-- **Verde** = a sincronização está rodando.
-- **Âmbar** = pausada.
-
-Você pode **clicar no selo** para pausar ou retomar — útil quando suas outras janelas estão
-cobrindo o aplicativo. O selo desaparece quando você clica em Parar.
+Você pode abrir o Mouse Synchronization mais de uma vez. Cada cópia recebe seu próprio número ("Instância 1", "Instância 2"…) mostrado no título e no botão Pausar, e seu próprio atalho de Pausa padrão (**Alt + o número dela**), para que você possa pausá-las de forma independente.
 
 ---
 
-## Rodando várias cópias da ferramenta
+## Onde ficam seus dados
 
-Você pode abrir o Mouse Synchronization mais de uma vez (cada cópia recebe seu próprio número, como
-"Instância 1", "Instância 2"). Cada cópia tem seu **próprio** atalho de Pausar (Alt + o número dela),
-para que você possa pausá-las de forma independente.
+| O quê | Onde |
+|---|---|
+| Idioma e atalhos de teclado | `%APPDATA%\Mouse Synchronization\settings.ini` |
 
----
-
-## Bom saber
-
-- **O que é copiado:** clique com o botão esquerdo, clique com o botão direito, clique com o botão do meio, rolagem e
-  clicar e arrastar (segurar o botão esquerdo e mover) — tudo feito dentro da janela principal.
-- **Os nomes das janelas mudam de propósito:** enquanto uma janela está na lista de sincronização, o aplicativo adiciona um
-  número pequeno como `[1]`, `[2]` ao título dela para você conseguir diferenciá-las. Os nomes originais
-  voltam quando você as remove ou fecha o aplicativo.
-- **Direitos de administrador:** o aplicativo funciona normalmente sem eles. Mas se uma janela que você quer
-  controlar estiver rodando "como administrador", o Windows impede que um aplicativo comum
-  a manipule — nesse caso, execute o Mouse Synchronization como administrador também
-  (clique com o botão direito no aplicativo → **Executar como administrador**).
-
----
-
-## Idioma e configurações salvas
-
-- O aplicativo oferece suporte a **9 idiomas**: English, Tiếng Việt, বাংলা, हिन्दी, Português (Brasil),
-  Русский, Türkçe, اردو e 简体中文. Clique no **🌐 botão de idioma** para trocar — a mudança é
-  instantânea, sem precisar reiniciar.
-- Seu **idioma** e seus **atalhos de teclado** são salvos automaticamente, então o aplicativo abre
-  do jeito que você deixou na próxima vez.
+Nada mais é salvo, e o app não envia nada para lugar nenhum — as ações do mouse vão direto para as janelas do seu próprio computador.
 
 ---
 
 ## Solução de problemas
 
-**O Iniciar não faz nada / mostra um aviso.**
-Verifique se você escolheu uma janela principal (estrela dourada) e adicionou pelo menos 2 janelas à
-lista de sincronização.
+**Iniciar não faz nada / mostra um aviso** — escolha uma janela principal (estrela dourada ★) e adicione pelo menos 2 janelas à lista de sincronização.
 
-**Uma janela que eu quero não está na lista.**
-Clique em **Atualizar**. Se ela estiver em outra área de trabalho virtual, desmarque **Somente a Área de Trabalho atual**.
+**Uma janela que eu quero não está na lista** — clique em **Atualizar**. Se ela estiver em outra área de trabalho virtual, desmarque **Apenas a Área de Trabalho atual**.
 
-**As outras janelas não reagem quando eu clico.**
-A janela que está *de fato* sendo clicada precisa ser a sua líder (a que tem a estrela
-dourada). Verifique também se a sincronização está rodando (selo verde no canto). Se a sua janela
-de destino roda "como administrador", execute este aplicativo como administrador também.
+**As outras janelas não reagem quando eu clico** — você precisa agir dentro da janela líder (estrela dourada) enquanto a sincronização está rodando (selo verde). Se uma janela de destino roda "como administrador", o Windows impede que apps normais a controlem — clique com o botão direito no Mouse Synchronization → **Executar como administrador**.
 
-**As janelas não estão alinhadas do jeito que eu espero.**
-Se elas tiverem tamanhos diferentes, ative **Sincronizar pela proporção da janela**. Para organizá-las em uma grade,
-marque os monitores em **Selecionar monitor** e clique em **Organizar**.
+**As janelas não estão alinhadas como eu esperava** — se têm tamanhos diferentes, ative **Sincronizar pela proporção da janela**. Para organizá-las em grade, marque os monitores em **Selecionar monitor** e clique em **Organizar**.
 
----
+**"Abrir mais" abre uma cópia que fecha na hora** — esse programa só permite uma cópia de si mesmo.
 
-## Sobre
-
-Mouse Synchronization · por **Duck Martians**
-[duckmartians.info](https://duckmartians.info)
+**O Windows bloqueia com "O Windows protegeu o computador"** — clique em **Mais informações → Executar assim mesmo**. O app não é assinado com um certificado da Microsoft — não é vírus.

@@ -1,145 +1,163 @@
-# Mouse Synchronization
+<h1 align="center">Mouse Synchronization</h1>
 
-🌐 [English](README.md) · [Tiếng Việt](README.vi.md) · [বাংলা](README.bn.md) · [हिन्दी](README.hi.md) · [Português (BR)](README.pt_BR.md) · [Русский](README.ru.md) · **Türkçe** · [اردو](README.ur.md) · [简体中文](README.zh_CN.md)
+<p align="center"><b>Tek bir fareyle birçok pencereyi aynı anda kontrol edin — bir lider pencerede tıklayın, kaydırın ve sürükleyin; listedeki diğer tüm pencereler aynı anda tıpatıp aynısını yapsın.</b></p>
 
-**Tek bir fareyle birçok pencereyi aynı anda kontrol edin.**
+<p align="center">
+  <a href="README.md">English</a> ·
+  <a href="README.vi.md">Tiếng Việt</a> ·
+  <a href="README.bn.md">বাংলা</a> ·
+  <a href="README.hi.md">हिन्दी</a> ·
+  <a href="README.pt_BR.md">Português (BR)</a> ·
+  <a href="README.ru.md">Русский</a> ·
+  <b>Türkçe</b> ·
+  <a href="README.ur.md">اردو</a> ·
+  <a href="README.zh_CN.md">简体中文</a>
+</p>
 
-Mouse Synchronization, bir pencereyi "lider" olarak seçmenize olanak tanır ve orada yaptığınız her şeyi — tıklamalar, kaydırma ve sürükleme — istediğiniz kadar başka pencereye aynı anda kopyalar. Aynı uygulamanın birkaç kopyasını açtığınızda ve her birinde aynı işlemi tekrar tekrar yapmaktan yorulduğunuzda bu tam size göre.
-
-**Duck Martians** tarafından yapıldı · [duckmartians.info](https://duckmartians.info)
-
-<img width="1052" height="792" alt="image" src="https://github.com/user-attachments/assets/57c22608-46a6-4206-adde-aa456440619e" />
-<img width="1919" height="1032" alt="image" src="https://github.com/user-attachments/assets/c93fee4f-a696-451e-894b-94fe3312fd58" />
-
----
-
-## Başlarken
-
-1. Kontrol etmek istediğiniz pencereleri veya uygulamaları açın (örneğin, aynı programın birkaç kopyasını).
-2. **Mouse Synchronization**'ı açın (uygulamayı çalıştırın).
-3. Aşağıdaki 5 adımı izleyin.
-
-Hepsi bu — kurulum yok, hesap yok.
+<p align="center">
+  <a href="https://github.com/duckmartians/Mouse-Synchronization/releases/latest"><img alt="Windows için indir" src="https://img.shields.io/badge/%C4%B0ndir-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white"></a>
+</p>
 
 ---
 
-## 5 adımda kullanın
+## Kurulum
 
-1. **Pencerelerinizi bulun.** Sol paneldeki **Açık pencereler**, şu anda açık olan her şeyi gösterir. Hedef pencereleriniz orada.
-2. **Bunları eşitleme listesine ekleyin.** Bir pencerenin yanındaki yeşil **➕** simgesine tıklayın (veya birkaçını seçip **Ekle →** tuşuna basın). Sağ paneldeki **Eşitleme listesi**'ne taşınırlar.
-3. **Lideri seçin.** Eşitleme listesinde, kontrol etmek istediğiniz pencerenin yanındaki **yıldız ☆** simgesine tıklayın. **Altın rengi ★** olur — artık bu sizin ana pencerenizdir.
-4. **Başlat'a basın.** Yeşil **Başlat** düğmesine tıklayın (veya **Ctrl + 1** tuşuna basın).
-5. **Lider pencerenizi kullanın.** Ana pencerenin içinde tıklayın, kaydırın veya tıklayıp sürükleyin; listedeki diğer her pencere de tam olarak aynı şeyi aynı anda yapar.
+### Adım 1 — İndirin
 
-Durdurmak için **Eşitlemeyi durdur**'a tıklayın (veya **Ctrl + 2**). Durdurmadan kısa bir mola vermek için **Duraklat**'a basın.
+En son sürümü **[Releases](https://github.com/duckmartians/Mouse-Synchronization/releases/latest)** sayfasından indirin:
 
-> Başlat çalışmadan önce seçilmiş bir ana pencereye **ve eşitleme listesinde en az 2 pencereye** ihtiyacınız var.
+| Bilgisayarınız | İndir | Not |
+|---|---|---|
+| 🪟 **Windows** | [Windows (.zip)](https://github.com/duckmartians/Mouse-Synchronization/releases/latest) | Dosyanın adı `Mouse-Synchronization_v<sürüm>.zip`. macOS sürümü yoktur. |
+
+### Adım 2 — Zipten çıkarın ve çalıştırın
+
+<details open>
+<summary><b>🪟 Windows'ta</b></summary>
+
+1. İndirdiğiniz `.zip` dosyasını istediğiniz bir klasöre **çıkarın** (sağ tık → **Tümünü Ayıkla…**). Kurulum programı yoktur.
+2. Çıkarılan klasörü açın ve **`Mouse Synchronization.exe`** dosyasını çalıştırın.
+3. **"Windows bilgisayarınızı korudu"** (SmartScreen) uyarısı çıkarsa: **Ek bilgi** → **Yine de çalıştır**'a tıklayın. *(Uygulama Microsoft sertifikasıyla imzalanmadığı için işaretlenebilir — virüs değildir.)*
+4. Klasörün tamamını bir arada tutun — `.exe` yanındaki dosyalara ihtiyaç duyar. Uygulamayı kaldırmak için klasörü silmeniz yeterli.
+
+</details>
+
+### Adım 3 — Ücretsiz, hesap gerekmez
+
+Mouse Synchronization **ücretsizdir**: hesap yok, etkinleştirme anahtarı yok, reklam yok. Normal pencereler için yönetici hakları gerekmez (yönetici olarak çalışan pencereler için aşağıdaki Sorun giderme bölümüne bakın).
 
 ---
 
-## Ekranın her bölümü ne işe yarar
+## İlk çalıştırma
 
-### Sol panel — Açık pencereler
-Bilgisayarınızdaki her açık pencerenin canlı listesi.
+1. **Kontrol etmek istediğiniz pencereleri açın** — örneğin aynı programın birkaç kopyası.
+2. **Mouse Synchronization'ı çalıştırın.** Sol panel, **Açık pencereler**, o anda açık olan her şeyi listeler.
+3. **Onları eşitleme listesine ekleyin.** Bir pencerenin yanındaki yeşil **➕**'ya tıklayın (ya da birkaçını seçip **Ekle →**'ye basın). Sağ panele, **Eşitleme listesi**'ne geçerler. **En az 2 pencere** gerekir.
+4. **Lideri seçin.** Eşitleme listesinde, kontrol etmek istediğiniz pencerenin yanındaki **yıldıza ☆** tıklayın. **Altın sarısı ★** olur — artık ana pencereniz budur.
+5. **Başlat'a basın** (ya da **Ctrl + 1**).
+6. **Lider pencereyi kullanın.** İçinde tıklayın, kaydırın ya da tıklayıp sürükleyin; listedeki diğer tüm pencereler aynı anda aynısını yapar.
+
+Durdurmak için **Eşitlemeyi durdur**'a tıklayın (ya da **Ctrl + 2**). Durdurmadan kısa bir ara vermek için **Duraklat**'a basın (**Alt + 1**).
+
+---
+
+## Özellikler
+
+<img width="1052" height="792" alt="Mouse Synchronization" src="https://github.com/user-attachments/assets/57c22608-46a6-4206-adde-aa456440619e" />
+<img width="1919" height="1032" alt="Mouse Synchronization" src="https://github.com/user-attachments/assets/c93fee4f-a696-451e-894b-94fe3312fd58" />
+
+- **Tek fare, çok pencere** — lider penceredeki sol, sağ ve orta tıklamalar, kaydırma ve tıklayıp sürükleme, Eşitleme listesindeki tüm pencerelere aynı anda gönderilir. Yalnızca fare eşitlenir, klavye değil.
+- **Pencere oranına göre eşitle** — pencerelerin boyutu veya konumu farklıysa, işlemler tam koordinat yerine *göreli* konuma göre eşleştirilir.
+- **Pencereleri hızla bulun ve ekleyin** — arama kutulu canlı pencere listesi, bir grubu tek seferde eklemek için **Eşleşenleri ekle** ve geçerli sanal masaüstüne göre filtre.
+- **Izgaraya diz** — eşitlenen pencerelerinizi seçtiğiniz monitörlerde düzenli bir ızgaraya yerleştirir.
+- **Daha fazla pencere aç** — bir pencerenin arkasındaki programın 1–20 ek kopyasını başlatır.
+- **Özelleştirilebilir kısayollar** — Başlat, Durdur ve Duraklat / Devam et; oturumlar arasında hatırlanır.
+- **Yüzen durum rozeti** — eşitleme sırasında yeşil, duraklatıldığında kehribar rengi; duraklatmak veya devam ettirmek için üzerine tıklayın.
+- **Aracın birden fazla kopyasını çalıştırın** — her kopyanın kendi numarası ve kendi Duraklat kısayolu vardır.
+- **9 dil** — 🌐 düğmesiyle anında değiştirin, yeniden başlatma gerekmez.
+
+---
+
+## Ana pencere
+
+### 🪟 Sol panel — Açık pencereler
+
+Bilgisayarınızdaki tüm açık pencerelerin canlı listesi.
 - **➕** — bu pencereyi eşitleme listesine ekler.
-- **👁 (göz)** — bu pencereyi öne getirir, böylece görebilirsiniz.
-- **Arama kutusu** — listeyi filtrelemek için bir pencerenin adının bir kısmını yazın (örneğin, diğer her şeyi gizlemek için bir programın adını yazın).
-- **Eşleşenlerin tümünü ekle** — aramanızla eşleşen her pencereyi tek tıkla ekler. Eklenecek 10'dan fazla pencereniz olduğunda harikadır. (Bu düğme yalnızca arama kutusuna bir şey yazdıktan sonra çalışır.)
-- **Yalnızca geçerli Masaüstü** — diğer sanal masaüstlerinizde bulunan pencereleri gizler.
+- **👁** — görebilmeniz için bu pencereyi öne getirir.
+- **Arama kutusu** — listeyi filtrelemek için pencere adının bir kısmını yazın.
+- **Eşleşenleri ekle** — aramanızla eşleşen tüm pencereleri tek tıkla ekler (arama kutusuna bir şey yazdıktan sonra çalışır). 10'dan fazla pencere eklerken çok işe yarar.
+- **Yalnızca geçerli Masaüstü** — diğer sanal masaüstlerinizdeki pencereleri gizler.
 
-### "Daha fazla pencere aç" kutusu
-Bir programın daha fazla kopyasını mı istiyorsunuz?
-1. **Açık pencereler** listesinde bir pencereye tıklayın.
-2. Kaç kopya istediğinizi ayarlayın.
-3. **Daha fazla aç**'a tıklayın.
+### ➕ Daha fazla pencere aç
 
-Uygulama, o pencerenin arkasındaki programı bulur ve sizin için fazladan kopyalar başlatır. (Bazı programlar kendilerinin yalnızca tek bir kopyasının çalışmasına izin verir — bunlar fazladan kopyaları basitçe kapatır. Bu, programın kuralıdır, buradaki bir hata değil.)
+Bir programın daha fazla kopyasını mı istiyorsunuz? **Açık pencereler** listesinde bir pencereye tıklayın, **Pencere sayısı**'nı (1–20) ayarlayın ve **Daha fazla aç**'a tıklayın. Uygulama o pencerenin arkasındaki programı bulur ve ek kopyalar başlatır. Bazı programlar kendilerinin yalnızca bir kopyasına izin verir — fazlalıkları kendileri kapatır; bu programın kuralıdır, hata değildir.
 
-### Orta sütun — işlemler
-- **Ekle → / ← Kaldır / Tümünü kaldır** — pencereleri eşitleme listesine alıp çıkarın.
-- **Yenile** — açık pencereleri yeniden tarar (listede bir pencere eksikse kullanın).
-- **Düzenle** — eşitleme pencerelerinizi otomatik olarak düzgün bir ızgaraya yerleştirir. **Monitör seç** altındaki onay kutularıyla hangi monitör(ler)i kullanacağınızı seçin, ardından Düzenle'ye tıklayın.
-- **Monitör seç** — pencereleri düzenlemek istediğiniz ekranları işaretleyin. **Yıldız**, "ana" ekranınızı belirtir (bu yalnızca uygulama içindeki bir etikettir — Windows ayarlarınızı **değiştirmez**).
+### ↔️ Orta sütun — işlemler
 
-### Sağ panel — Eşitleme listesi
+- **Ekle → / ← Kaldır / Tümünü kaldır** — pencereleri eşitleme listesine ekler veya listeden çıkarır.
+- **Yenile** — açık pencereleri yeniden tarar (bir pencere eksikse kullanın).
+- **Diz** — eşitlenen pencereleri **Monitör seç** altında işaretli monitörlerde düzenli bir ızgaraya yerleştirir.
+- **Monitör seç** — pencerelerin dizileceği ekranları işaretleyin. **Yıldız** "ana" ekranınızı gösterir; yalnızca uygulama içi bir etikettir ve Windows ayarlarınızı **değiştirmez**.
+
+### ⭐ Sağ panel — Eşitleme listesi
+
 Liderinizi takip edecek pencereler.
-- **Yıldız ★** — lider (ana) pencereyi seçer. Yalnızca biri lider olabilir.
-- **👁 (göz)** — o pencereyi öne getirir.
+- **Yıldız ★** — lider (ana) pencereyi seçer. Yalnızca bir pencere lider olabilir.
+- **👁** — o pencereyi öne getirir.
 - **➖** — bu pencereyi listeden kaldırır.
 
-### Alt çubuk — kontroller
-- **Başlat / Duraklat / Durdur** — eşitlemeyi çalıştırın, duraklatın veya durdurun.
-- Her düğmenin altındaki küçük kutular **klavye kısayollarıdır** (aşağıya bakın).
-- **Pencere oranına göre eşitle** — pencereleriniz farklı boyutlardaysa veya farklı konumlardaysa bunu **açın**; o zaman işlemleri tam koordinatlar yerine *göreli* konuma göre eşleştirir. Tüm pencereleriniz aynı boyutta ve hizalıysa **kapalı** bırakın.
-- **🏠 Ana Sayfa düğmesi** — Duck Martians web sitesini açar.
-- **🌐 Dil düğmesi** — uygulamanın dilini değiştirir.
+Bir pencere eşitleme listesindeyken, uygulama onları ayırt edebilmeniz için başlığına `[1]`, `[2]` gibi küçük bir numara ekler. Pencereyi kaldırdığınızda veya uygulamayı kapattığınızda özgün başlıklar geri gelir.
+
+### ▶️ Alt çubuk — kontroller
+
+- **Başlat / Duraklat / Eşitlemeyi durdur** — eşitlemeyi başlatır, duraklatır veya durdurur. Her düğmenin altındaki küçük kutular onun klavye kısayoludur.
+- **Pencere oranına göre eşitle** — pencereleriniz farklı boyutta veya farklı konumdaysa **açın**; hepsi aynı boyutta ve hizalıysa **kapalı** bırakın.
+- **🏠** — Duck Martians web sitesini açar ([duckmartians.info](https://duckmartians.info)).
+- **🌐** — uygulamanın dilini değiştirir (English, Tiếng Việt, বাংলা, हिन्दी, Português (Brasil), Русский, Türkçe, اردو, 简体中文).
 
 ---
 
 ## Klavye kısayolları
 
-Düğmelere dokunmadan her şeyi kontrol edebilirsiniz:
-
 | İşlem | Varsayılan kısayol |
-|--------|------------------|
-| Başlat  | **Ctrl + 1** |
-| Durdur   | **Ctrl + 2** |
+|---|---|
+| Başlat | **Ctrl + 1** |
+| Durdur | **Ctrl + 2** |
 | Duraklat / Devam et | **Alt + 1** |
 
-**Bir kısayolu değiştirin:** bir kısayol kutusuna tıklayın, istediğiniz tuşları yazın (örneğin, ilk kutuya `Ctrl` ve ikinci kutuya `F5`) ve başka bir yere tıklayın. Kısayol kutuları **eşitleme sırasında kilitlidir** — değiştirmek istiyorsanız önce durdurun.
-
-Kısayollarınız, uygulamayı bir sonraki açışınızda **hatırlanır**.
-
----
+**Kısayolu değiştirme:** bir kısayol kutusuna tıklayın, istediğiniz tuşları yazın (örneğin ilk kutuya `Ctrl`, ikinciye `F5`) ve başka bir yere tıklayın. Kısayol kutuları **eşitleme sırasında kilitlidir** — değiştirmek için önce durdurun. Kısayollarınız uygulamayı bir sonraki açışınızda hatırlanır.
 
 ## Yüzen durum rozeti
 
-Eşitleme başladığında, ekranınızın köşesinde küçük bir rozet belirir:
-- **Yeşil** = eşitleme çalışıyor.
-- **Kehribar** = duraklatıldı.
-
-Duraklatmak veya devam etmek için **rozete tıklayabilirsiniz** — diğer pencereleriniz uygulamanın üzerini kapattığında kullanışlıdır. Durdur'a bastığınızda rozet kaybolur.
-
----
+Eşitleme başladığında ekranın köşesinde küçük bir rozet belirir: **yeşil** = eşitleniyor, **kehribar** = duraklatıldı. Duraklatmak veya devam ettirmek için **rozete tıklayın** — diğer pencereler uygulamayı kapattığında çok kullanışlıdır. Durdur'a bastığınızda kaybolur.
 
 ## Aracın birden fazla kopyasını çalıştırma
 
-Mouse Synchronization'ı birden fazla kez açabilirsiniz (her kopya, "Örnek 1", "Örnek 2" gibi kendi numarasını alır). Her kopyanın **kendi** Duraklat kısayolu vardır (Alt + numarası), böylece bunları bağımsız olarak duraklatabilirsiniz.
+Mouse Synchronization'ı birden fazla kez açabilirsiniz. Her kopya, başlığında ve Duraklat düğmesinde görünen kendi numarasını ("Kopya 1", "Kopya 2"…) ve kendi varsayılan Duraklat kısayolunu (**Alt + kendi numarası**) alır; böylece onları birbirinden bağımsız duraklatabilirsiniz.
 
 ---
 
-## Bilmekte fayda var
+## Verileriniz nerede
 
-- **Ne kopyalanır:** sol tıklama, sağ tıklama, orta tıklama, kaydırma ve tıklayıp sürükleme (sol düğmeyi basılı tutup hareket ettirme) — hepsi ana pencerenin içinde yapılır.
-- **Pencere adları bilerek değişir:** bir pencere eşitleme listesindeyken, uygulama onları birbirinden ayırt edebilmeniz için başlığına `[1]`, `[2]` gibi küçük bir numara ekler. Bunları kaldırdığınızda veya uygulamayı kapattığınızda orijinal adlar geri gelir.
-- **Yönetici hakları:** uygulama bunlar olmadan normal şekilde çalışır. Ancak kontrol etmek istediğiniz bir pencere kendisi "yönetici olarak" çalışıyorsa, Windows normal bir uygulamanın ona dokunmasını engeller — bu durumda Mouse Synchronization'ı da yönetici olarak çalıştırın (uygulamaya sağ tıklayın → **Yönetici olarak çalıştır**).
+| Ne | Nerede |
+|---|---|
+| Dil ve klavye kısayolları | `%APPDATA%\Mouse Synchronization\settings.ini` |
 
----
-
-## Dil ve kaydedilen ayarlar
-
-- Uygulama **9 dili** destekler: English, Tiếng Việt, বাংলা, हिन्दी, Português (Brasil), Русский, Türkçe, اردو ve 简体中文. Değiştirmek için **🌐 dil düğmesine** tıklayın — anında değişir, yeniden başlatmaya gerek yoktur.
-- **Diliniz** ve **klavye kısayollarınız** otomatik olarak kaydedilir, böylece uygulama bir sonraki sefere bıraktığınız gibi açılır.
+Başka hiçbir şey kaydedilmez ve uygulama hiçbir yere veri göndermez — fare işlemleri doğrudan kendi bilgisayarınızdaki pencerelere iletilir.
 
 ---
 
 ## Sorun giderme
 
-**Başlat hiçbir şey yapmıyor / bir uyarı gösteriyor.**
-Bir ana pencere seçtiğinizden (altın yıldız) ve eşitleme listesine en az 2 pencere eklediğinizden emin olun.
+**Başlat hiçbir şey yapmıyor / uyarı gösteriyor** — bir ana pencere seçin (altın yıldız ★) ve eşitleme listesine en az 2 pencere ekleyin.
 
-**İstediğim bir pencere listede yok.**
-**Yenile**'ye tıklayın. Başka bir sanal masaüstündeyse, **Yalnızca geçerli Masaüstü** seçeneğinin işaretini kaldırın.
+**İstediğim pencere listede yok** — **Yenile**'ye tıklayın. Başka bir sanal masaüstündeyse **Yalnızca geçerli Masaüstü** işaretini kaldırın.
 
-**Tıkladığımda diğer pencereler tepki vermiyor.**
-*Gerçekten* tıklanan pencere sizin lideriniz olmalıdır (altın yıldızlı olan). Ayrıca eşitlemenin çalıştığından emin olun (köşedeki yeşil rozet). Hedef pencereniz "yönetici olarak" çalışıyorsa, bu uygulamayı da yönetici olarak çalıştırın.
+**Tıkladığımda diğer pencereler tepki vermiyor** — eşitleme çalışırken (yeşil rozet) lider pencerenin (altın yıldız) içinde işlem yapmalısınız. Hedef pencere "yönetici olarak" çalışıyorsa Windows normal uygulamaların onu kontrol etmesini engeller — Mouse Synchronization'a sağ tıklayın → **Yönetici olarak çalıştır**.
 
-**Pencereler beklediğim gibi hizalanmıyor.**
-Farklı boyutlardaysalar, **Pencere oranına göre eşitle** seçeneğini açın. Bunları bir ızgaraya düzenlemek için **Monitör seç** altındaki monitörleri işaretleyin ve **Düzenle**'ye tıklayın.
+**Pencereler beklediğim gibi hizalanmıyor** — boyutları farklıysa **Pencere oranına göre eşitle**'yi açın. Izgaraya dizmek için **Monitör seç** altında monitörleri işaretleyip **Diz**'e tıklayın.
 
----
+**"Daha fazla aç" hemen kapanan bir kopya açıyor** — o program kendisinin yalnızca bir kopyasına izin veriyor.
 
-## Hakkında
-
-Mouse Synchronization · **Duck Martians** tarafından
-[duckmartians.info](https://duckmartians.info)
+**Windows "Windows bilgisayarınızı korudu" ile engelliyor** — **Ek bilgi → Yine de çalıştır**'a tıklayın. Uygulama Microsoft sertifikasıyla imzalanmamıştır — virüs değildir.

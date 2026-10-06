@@ -1,180 +1,163 @@
-# Mouse Synchronization
+<h1 align="center">Mouse Synchronization</h1>
 
-🌐 [English](README.md) · **Tiếng Việt** · [বাংলা](README.bn.md) · [हिन्दी](README.hi.md) · [Português (BR)](README.pt_BR.md) · [Русский](README.ru.md) · [Türkçe](README.tr.md) · [اردو](README.ur.md) · [简体中文](README.zh_CN.md)
+<p align="center"><b>Điều khiển nhiều cửa sổ cùng lúc chỉ với một con chuột — nhấp, cuộn, kéo thả ở một cửa sổ chính, mọi cửa sổ khác trong danh sách làm y hệt ngay cùng lúc.</b></p>
 
-**Điều khiển nhiều cửa sổ cùng lúc chỉ với một con chuột.**
+<p align="center">
+  <a href="README.md">English</a> ·
+  <b>Tiếng Việt</b> ·
+  <a href="README.bn.md">বাংলা</a> ·
+  <a href="README.hi.md">हिन्दी</a> ·
+  <a href="README.pt_BR.md">Português (BR)</a> ·
+  <a href="README.ru.md">Русский</a> ·
+  <a href="README.tr.md">Türkçe</a> ·
+  <a href="README.ur.md">اردو</a> ·
+  <a href="README.zh_CN.md">简体中文</a>
+</p>
 
-Mouse Synchronization cho phép bạn chọn một cửa sổ làm "cửa sổ chính" và sao chép mọi thao tác
-bạn làm ở đó — nhấp chuột, cuộn, và kéo thả — sang bao nhiêu cửa sổ khác tùy thích, tất cả
-cùng một lúc. Thật tuyệt vời khi bạn mở nhiều bản sao của cùng một ứng dụng và đã mệt mỏi
-vì phải lặp lại cùng một thao tác trên từng cửa sổ.
-
-Được tạo bởi **Duck Martians** · [duckmartians.info](https://duckmartians.info)
-
-<img width="1052" height="792" alt="image" src="https://github.com/user-attachments/assets/57c22608-46a6-4206-adde-aa456440619e" />
-<img width="1919" height="1032" alt="image" src="https://github.com/user-attachments/assets/c93fee4f-a696-451e-894b-94fe3312fd58" />
-
----
-
-## Bắt đầu
-
-1. Mở các cửa sổ hoặc ứng dụng bạn muốn điều khiển (ví dụ, nhiều bản sao của cùng một chương trình).
-2. Mở **Mouse Synchronization** (chạy ứng dụng).
-3. Làm theo 5 bước dưới đây.
-
-Chỉ vậy thôi — không cần cài đặt, không cần tài khoản.
+<p align="center">
+  <a href="https://github.com/duckmartians/Mouse-Synchronization/releases/latest"><img alt="Tải về cho Windows" src="https://img.shields.io/badge/T%E1%BA%A3i%20v%E1%BB%81-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white"></a>
+</p>
 
 ---
 
-## Sử dụng trong 5 bước
+## Cài đặt
 
-1. **Tìm cửa sổ của bạn.** Bảng bên trái, **Cửa sổ đang mở**, hiển thị mọi thứ đang mở
-   hiện tại. Các cửa sổ bạn cần đều nằm trong đó.
-2. **Thêm chúng vào danh sách đồng bộ.** Nhấp vào nút **➕** màu xanh bên cạnh một cửa sổ (hoặc chọn
-   nhiều cửa sổ rồi nhấn **Thêm →**). Chúng sẽ chuyển sang bảng bên phải, **Danh sách đồng bộ**.
-3. **Chọn cửa sổ chính.** Trong Danh sách đồng bộ, nhấp vào **ngôi sao ☆** bên cạnh cửa sổ bạn
-   muốn điều khiển từ đó. Nó sẽ chuyển thành **màu vàng ★** — đây giờ là cửa sổ chính của bạn.
-4. **Nhấn Bắt đầu.** Nhấp vào nút **Bắt đầu** màu xanh (hoặc nhấn **Ctrl + 1**).
-5. **Dùng cửa sổ chính của bạn.** Nhấp chuột, cuộn, hoặc nhấp và kéo trong cửa sổ chính,
-   và mọi cửa sổ khác trong danh sách sẽ làm y hệt như vậy cùng một lúc.
+### Bước 1 — Tải về
 
-Để dừng, nhấp vào **Dừng đồng bộ** (hoặc **Ctrl + 2**). Để nghỉ nhanh mà không dừng hẳn,
-nhấn **Tạm dừng**.
+Tải bản mới nhất từ **[Releases](https://github.com/duckmartians/Mouse-Synchronization/releases/latest)**:
 
-> Bạn cần chọn một cửa sổ chính **và có ít nhất 2 cửa sổ** trong danh sách đồng bộ thì nút Bắt đầu mới hoạt động.
+| Máy của bạn | Tải tệp | Ghi chú |
+|---|---|---|
+| 🪟 **Windows** | [Windows (.zip)](https://github.com/duckmartians/Mouse-Synchronization/releases/latest) | Tệp có tên `Mouse-Synchronization_v<phiên bản>.zip`. Không có bản macOS. |
+
+### Bước 2 — Giải nén và chạy
+
+<details open>
+<summary><b>🪟 Trên Windows</b></summary>
+
+1. **Giải nén** tệp `.zip` vừa tải vào thư mục bất kỳ (chuột phải → **Extract All…**). Không có trình cài đặt.
+2. Mở thư mục vừa giải nén và chạy **`Mouse Synchronization.exe`**.
+3. Nếu hiện bảng **"Windows protected your PC"** (SmartScreen): bấm **More info** → **Run anyway**. *(App không ký bằng chứng chỉ của Microsoft nên có thể bị cảnh báo — không phải virus.)*
+4. Giữ nguyên cả thư mục — tệp `.exe` cần các tệp đi kèm bên cạnh. Muốn gỡ app thì chỉ cần xoá thư mục.
+
+</details>
+
+### Bước 3 — Miễn phí, không cần tài khoản
+
+Mouse Synchronization **miễn phí**: không tài khoản, không mã kích hoạt, không quảng cáo. Không cần quyền Admin với các cửa sổ thông thường (xem [Khắc phục sự cố](#khắc-phục-sự-cố) cho cửa sổ chạy bằng quyền Admin).
 
 ---
 
-## Từng phần trên màn hình có tác dụng gì
+## Lần chạy đầu tiên
 
-### Bảng bên trái — Cửa sổ đang mở
-Danh sách trực tiếp mọi cửa sổ đang mở trên máy tính của bạn.
+1. **Mở các cửa sổ cần điều khiển** — ví dụ nhiều bản của cùng một chương trình.
+2. **Chạy Mouse Synchronization.** Bảng bên trái, **Cửa sổ đang mở**, liệt kê mọi cửa sổ đang mở.
+3. **Đưa chúng vào danh sách đồng bộ.** Bấm nút **➕** xanh cạnh một cửa sổ (hoặc chọn nhiều cửa sổ rồi bấm **Thêm →**). Chúng chuyển sang bảng bên phải, **Danh sách đồng bộ**. Cần **ít nhất 2 cửa sổ**.
+4. **Chọn cửa sổ chính.** Trong Danh sách đồng bộ, bấm **ngôi sao ☆** cạnh cửa sổ bạn muốn điều khiển. Sao chuyển **vàng ★** — đây là cửa sổ chính.
+5. **Bấm Bắt đầu** (hoặc **Ctrl + 1**).
+6. **Thao tác trên cửa sổ chính.** Nhấp, cuộn hoặc nhấp-và-kéo bên trong nó — mọi cửa sổ khác trong danh sách làm y hệt cùng lúc.
+
+Muốn dừng, bấm **Dừng đồng bộ** (hoặc **Ctrl + 2**). Nghỉ nhanh mà không dừng hẳn: bấm **Tạm dừng** (**Alt + 1**).
+
+---
+
+## Tính năng
+
+<img width="1052" height="792" alt="Mouse Synchronization" src="https://github.com/user-attachments/assets/57c22608-46a6-4206-adde-aa456440619e" />
+<img width="1919" height="1032" alt="Mouse Synchronization" src="https://github.com/user-attachments/assets/c93fee4f-a696-451e-894b-94fe3312fd58" />
+
+- **Một chuột, nhiều cửa sổ** — nhấp trái, phải, giữa, cuộn và nhấp-và-kéo trong cửa sổ chính được gửi đồng thời sang mọi cửa sổ trong Danh sách đồng bộ. Chỉ đồng bộ chuột, không đồng bộ bàn phím.
+- **Đồng bộ theo tỷ lệ cửa sổ** — khi các cửa sổ khác kích thước hoặc vị trí, thao tác được khớp theo vị trí *tương đối* thay vì toạ độ chính xác.
+- **Tìm và thêm cửa sổ nhanh** — danh sách cửa sổ trực tiếp có ô tìm kiếm, nút **Thêm tất cả khớp** để thêm cả loạt một lần, và bộ lọc theo Desktop ảo hiện tại.
+- **Sắp xếp thành lưới** — dàn các cửa sổ đồng bộ thành lưới đều nhau trên những màn hình bạn chọn.
+- **Mở thêm cửa sổ** — mở thêm 1–20 bản sao của chương trình đứng sau một cửa sổ.
+- **Phím tắt tuỳ chỉnh** — Bắt đầu, Dừng và Tạm dừng / Tiếp tục, được ghi nhớ cho lần mở sau.
+- **Huy hiệu trạng thái nổi** — xanh lá khi đang đồng bộ, hổ phách khi tạm dừng; bấm vào để tạm dừng / tiếp tục.
+- **Chạy nhiều phiên của app** — mỗi phiên có số riêng và phím Tạm dừng riêng.
+- **9 ngôn ngữ** — đổi tức thì bằng nút 🌐, không cần khởi động lại.
+
+---
+
+## Cửa sổ chính của app
+
+### 🪟 Bảng trái — Cửa sổ đang mở
+
+Danh sách trực tiếp mọi cửa sổ đang mở trên máy.
 - **➕** — thêm cửa sổ này vào danh sách đồng bộ.
-- **👁 (con mắt)** — đưa cửa sổ này ra phía trước để bạn nhìn thấy.
-- **Ô tìm kiếm** — gõ một phần tên của cửa sổ để lọc danh sách (ví dụ, gõ
-  tên một chương trình để ẩn tất cả những cái còn lại).
-- **Thêm tất cả cửa sổ khớp** — thêm mọi cửa sổ khớp với từ khóa tìm kiếm chỉ trong một cú nhấp. Rất tiện
-  khi bạn có hơn 10 cửa sổ cần thêm. (Nút này chỉ hoạt động sau khi bạn gõ gì đó vào ô tìm kiếm.)
-- **Chỉ Desktop hiện tại** — ẩn các cửa sổ nằm trên những màn hình ảo khác của bạn.
+- **👁** — đưa cửa sổ này ra trước để xem.
+- **Ô tìm kiếm** — gõ một phần tên cửa sổ để lọc danh sách.
+- **Thêm tất cả khớp** — thêm mọi cửa sổ khớp với từ khoá chỉ bằng một cú bấm (chỉ dùng được sau khi đã gõ vào ô tìm kiếm). Rất tiện khi cần thêm 10+ cửa sổ.
+- **Chỉ lọc Desktop hiện tại** — ẩn các cửa sổ nằm ở Desktop ảo khác.
 
-### Ô "Mở thêm cửa sổ"
-Muốn thêm nhiều bản sao của một chương trình?
-1. Nhấp vào một cửa sổ trong danh sách **Cửa sổ đang mở**.
-2. Đặt số lượng bản sao bạn muốn.
-3. Nhấp **Mở thêm**.
+### ➕ Mở thêm cửa sổ
 
-Ứng dụng sẽ tìm chương trình đằng sau cửa sổ đó và mở thêm các bản sao cho bạn.
-(Một số chương trình chỉ cho phép chạy một bản sao của chính nó — những chương trình đó sẽ đơn giản là đóng
-các bản sao thừa. Đó là quy tắc của chương trình, không phải lỗi ở đây.)
+Cần thêm bản của một chương trình? Bấm chọn một cửa sổ trong **Cửa sổ đang mở**, đặt **Số lượng cửa sổ** (1–20) rồi bấm **Mở thêm**. App tìm chương trình đứng sau cửa sổ đó và mở thêm bản sao. Một số chương trình chỉ cho chạy một bản — chúng sẽ tự đóng các bản thừa; đó là quy định của chương trình, không phải lỗi.
 
-### Cột giữa — thao tác
-- **Thêm → / ← Bỏ / Bỏ tất cả** — chuyển cửa sổ vào và ra khỏi danh sách đồng bộ.
-- **Làm mới** — quét lại các cửa sổ đang mở (dùng khi một cửa sổ bị thiếu trong danh sách).
-- **Sắp xếp** — tự động dàn gọn các cửa sổ đồng bộ của bạn thành một lưới ngăn nắp. Chọn
-  màn hình muốn dùng bằng các ô đánh dấu dưới mục **Chọn màn hình**, rồi nhấp Sắp xếp.
-- **Chọn màn hình** — tích chọn những màn hình bạn muốn sắp xếp cửa sổ lên đó. **Ngôi sao**
-  đánh dấu màn hình "chính" của bạn (đây chỉ là một nhãn bên trong ứng dụng — nó **không** thay đổi
-  cài đặt Windows của bạn).
+### ↔️ Cột giữa — thao tác
 
-### Bảng bên phải — Danh sách đồng bộ
-Các cửa sổ sẽ làm theo cửa sổ chính của bạn.
+- **Thêm → / ← Xóa / Xóa tất cả** — đưa cửa sổ vào hoặc ra khỏi danh sách đồng bộ.
+- **Làm mới** — quét lại các cửa sổ đang mở (dùng khi thiếu cửa sổ).
+- **Sắp xếp** — dàn các cửa sổ đồng bộ thành lưới đều trên những màn hình đã tích trong **Chọn màn hình**.
+- **Chọn màn hình** — tích các màn hình muốn xếp cửa sổ lên. **Ngôi sao** đánh dấu màn hình "chính"; nó chỉ là nhãn trong app, **không** đổi cài đặt Windows.
+
+### ⭐ Bảng phải — Danh sách đồng bộ
+
+Các cửa sổ sẽ làm theo cửa sổ chính.
 - **Ngôi sao ★** — chọn cửa sổ chính. Chỉ một cửa sổ được làm cửa sổ chính.
-- **👁 (con mắt)** — đưa cửa sổ đó ra phía trước.
+- **👁** — đưa cửa sổ đó ra trước.
 - **➖** — bỏ cửa sổ này khỏi danh sách.
 
-### Thanh dưới cùng — điều khiển
-- **Bắt đầu / Tạm dừng / Dừng** — chạy, tạm dừng, hoặc dừng đồng bộ.
-- Các ô nhỏ dưới mỗi nút là **phím tắt** (xem bên dưới).
-- **Đồng bộ theo tỷ lệ cửa sổ** — **bật** cái này lên nếu các cửa sổ của bạn có kích thước khác nhau hoặc ở
-  các vị trí khác nhau; khi đó nó sẽ khớp thao tác theo vị trí *tương đối* thay vì tọa độ chính xác.
-  Cứ để **tắt** nếu tất cả các cửa sổ của bạn cùng kích thước và thẳng hàng.
-- **Nút 🏠 Trang chủ** — mở trang web của Duck Martians.
-- **Nút 🌐 Ngôn ngữ** — đổi ngôn ngữ của ứng dụng.
+Khi một cửa sổ nằm trong danh sách đồng bộ, app gắn thêm số nhỏ như `[1]`, `[2]` vào tiêu đề để dễ phân biệt. Tên gốc trở lại khi bạn bỏ cửa sổ ra hoặc đóng app.
+
+### ▶️ Thanh dưới — điều khiển
+
+- **Bắt đầu / Tạm dừng / Dừng đồng bộ** — chạy, tạm dừng hoặc dừng đồng bộ. Các ô nhỏ dưới mỗi nút là phím tắt của nút đó.
+- **Đồng bộ theo tỷ lệ cửa sổ** — **bật** nếu các cửa sổ khác kích thước hoặc khác vị trí; để **tắt** nếu chúng cùng cỡ và thẳng hàng.
+- **🏠** — mở trang Duck Martians ([duckmartians.info](https://duckmartians.info)).
+- **🌐** — đổi ngôn ngữ app (English, Tiếng Việt, বাংলা, हिन्दी, Português (Brasil), Русский, Türkçe, اردو, 简体中文).
 
 ---
 
 ## Phím tắt
 
-Bạn có thể điều khiển mọi thứ mà không cần chạm vào các nút:
-
-| Thao tác | Phím tắt mặc định |
-|--------|------------------|
-| Bắt đầu  | **Ctrl + 1** |
-| Dừng   | **Ctrl + 2** |
+| Thao tác | Phím mặc định |
+|---|---|
+| Bắt đầu | **Ctrl + 1** |
+| Dừng | **Ctrl + 2** |
 | Tạm dừng / Tiếp tục | **Alt + 1** |
 
-**Đổi phím tắt:** nhấp vào một ô phím tắt, gõ tổ hợp phím bạn muốn (ví dụ,
-`Ctrl` ở ô đầu tiên và `F5` ở ô thứ hai), rồi nhấp ra chỗ khác. Các ô phím tắt bị
-**khóa trong khi đang đồng bộ** — hãy dừng lại trước nếu bạn muốn thay đổi chúng.
-
-Phím tắt của bạn được **ghi nhớ** cho lần mở ứng dụng tiếp theo.
-
----
+**Đổi phím tắt:** bấm vào ô phím tắt, gõ phím bạn muốn (ví dụ `Ctrl` ở ô đầu và `F5` ở ô thứ hai), rồi bấm ra ngoài. Các ô phím tắt **bị khoá khi đang đồng bộ** — dừng trước rồi mới đổi. Phím tắt được ghi nhớ cho lần mở app sau.
 
 ## Huy hiệu trạng thái nổi
 
-Khi bắt đầu đồng bộ, một huy hiệu nhỏ sẽ xuất hiện ở góc màn hình của bạn:
-- **Xanh lá** = đang đồng bộ.
-- **Hổ phách** = đang tạm dừng.
+Khi bắt đầu đồng bộ, một huy hiệu nhỏ hiện ở góc màn hình: **xanh lá** = đang đồng bộ, **hổ phách** = tạm dừng. **Bấm vào huy hiệu** để tạm dừng / tiếp tục — tiện khi cửa sổ app bị che. Huy hiệu biến mất khi bấm Dừng.
 
-Bạn có thể **nhấp vào huy hiệu** để tạm dừng hoặc tiếp tục — tiện lợi khi các cửa sổ khác đang
-che khuất ứng dụng. Huy hiệu sẽ biến mất khi bạn nhấn Dừng.
+## Chạy nhiều phiên của app
 
----
-
-## Chạy nhiều bản sao của công cụ
-
-Bạn có thể mở Mouse Synchronization nhiều hơn một lần (mỗi bản sao có số riêng, như
-"Instance 1", "Instance 2"). Mỗi bản sao có phím Tạm dừng **riêng** (Alt + số của nó),
-nên bạn có thể tạm dừng chúng độc lập với nhau.
+Bạn có thể mở Mouse Synchronization nhiều lần. Mỗi phiên có số riêng ("phiên bản 1", "phiên bản 2"…) hiện trên tiêu đề và nút Tạm dừng, cùng phím Tạm dừng mặc định riêng (**Alt + số phiên**), nên có thể tạm dừng từng phiên độc lập.
 
 ---
 
-## Điều nên biết
+## Nơi lưu dữ liệu
 
-- **Những gì được sao chép:** nhấp chuột trái, nhấp chuột phải, nhấp chuột giữa, cuộn, và
-  nhấp và kéo (giữ nút trái rồi di chuyển) — tất cả được thực hiện trong cửa sổ chính.
-- **Tên cửa sổ thay đổi là có chủ ý:** trong khi một cửa sổ nằm trong danh sách đồng bộ, ứng dụng sẽ thêm một
-  số nhỏ như `[1]`, `[2]` vào tiêu đề để bạn phân biệt chúng. Tên gốc
-  sẽ trở lại khi bạn bỏ chúng ra hoặc đóng ứng dụng.
-- **Quyền quản trị viên:** ứng dụng chạy bình thường mà không cần quyền này. Nhưng nếu một cửa sổ bạn muốn
-  điều khiển đang chạy "với quyền quản trị viên", Windows sẽ chặn một ứng dụng thông thường không cho
-  tác động đến nó — trong trường hợp đó, hãy chạy Mouse Synchronization với quyền quản trị viên luôn
-  (nhấp chuột phải vào ứng dụng → **Run as administrator**).
+| Dữ liệu | Vị trí |
+|---|---|
+| Ngôn ngữ và phím tắt | `%APPDATA%\Mouse Synchronization\settings.ini` |
 
----
-
-## Ngôn ngữ & cài đặt đã lưu
-
-- Ứng dụng hỗ trợ **9 ngôn ngữ**: English, Tiếng Việt, বাংলা, हिन्दी, Português (Brasil),
-  Русский, Türkçe, اردو, và 简体中文. Nhấp vào **nút 🌐 ngôn ngữ** để chuyển đổi — nó
-  thay đổi ngay lập tức, không cần khởi động lại.
-- **Ngôn ngữ** và **phím tắt** của bạn được lưu tự động, nên ứng dụng sẽ mở
-  đúng như lúc bạn để lại vào lần sau.
+Ngoài ra không lưu gì khác, và app không gửi dữ liệu đi đâu — thao tác chuột được chuyển thẳng sang các cửa sổ trên máy bạn.
 
 ---
 
 ## Khắc phục sự cố
 
-**Nhấn Bắt đầu mà không có gì xảy ra / hiện cảnh báo.**
-Hãy chắc chắn bạn đã chọn một cửa sổ chính (ngôi sao vàng) và thêm ít nhất 2 cửa sổ vào
-danh sách đồng bộ.
+**Bấm Bắt đầu không có gì / hiện cảnh báo** — chọn cửa sổ chính (sao vàng ★) và thêm ít nhất 2 cửa sổ vào danh sách đồng bộ.
 
-**Cửa sổ tôi cần không có trong danh sách.**
-Nhấp **Làm mới**. Nếu nó nằm trên một màn hình ảo khác, hãy bỏ tích **Chỉ Desktop hiện tại**.
+**Không thấy cửa sổ cần tìm trong danh sách** — bấm **Làm mới**. Nếu nó ở Desktop ảo khác, bỏ tích **Chỉ lọc Desktop hiện tại**.
 
-**Các cửa sổ khác không phản ứng khi tôi nhấp chuột.**
-Cửa sổ *thực sự* được nhấp phải là cửa sổ chính của bạn (cửa sổ có ngôi sao vàng). Đồng thời hãy
-chắc chắn đồng bộ đang chạy (huy hiệu xanh lá ở góc màn hình). Nếu cửa sổ bạn muốn điều khiển
-đang chạy "với quyền quản trị viên", hãy chạy ứng dụng này với quyền quản trị viên luôn.
+**Các cửa sổ khác không phản ứng khi nhấp** — phải thao tác bên trong cửa sổ chính (sao vàng) trong lúc đang đồng bộ (huy hiệu xanh). Nếu cửa sổ đích chạy bằng quyền Admin, Windows chặn app thường điều khiển nó — chuột phải Mouse Synchronization → **Run as administrator**.
 
-**Các cửa sổ không thẳng hàng như tôi mong đợi.**
-Nếu chúng có kích thước khác nhau, hãy bật **Đồng bộ theo tỷ lệ cửa sổ**. Để dàn gọn chúng thành lưới,
-hãy tích chọn các màn hình dưới mục **Chọn màn hình** rồi nhấp **Sắp xếp**.
+**Cửa sổ xếp không như mong muốn** — nếu khác kích thước, bật **Đồng bộ theo tỷ lệ cửa sổ**. Muốn dàn thành lưới, tích màn hình trong **Chọn màn hình** rồi bấm **Sắp xếp**.
 
----
+**"Mở thêm" mở ra bản sao rồi tự đóng ngay** — chương trình đó chỉ cho chạy một bản.
 
-## Giới thiệu
-
-Mouse Synchronization · bởi **Duck Martians**
-[duckmartians.info](https://duckmartians.info)
+**Windows chặn ở bảng "Windows protected your PC"** — bấm **More info → Run anyway**. App không ký bằng chứng chỉ của Microsoft — không phải virus.
