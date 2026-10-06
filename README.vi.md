@@ -63,7 +63,7 @@ Muốn dừng, bấm **Dừng đồng bộ** (hoặc **Ctrl + 2**). Nghỉ nhanh
 
 ## Tính năng
 
-<img width="1052" height="792" alt="Mouse Synchronization" src="https://github.com/user-attachments/assets/57c22608-46a6-4206-adde-aa456440619e" />
+<img width="1100" alt="Mouse Synchronization" src="docs/screenshots/vi/main.png" />
 <img width="1919" height="1032" alt="Mouse Synchronization" src="https://github.com/user-attachments/assets/c93fee4f-a696-451e-894b-94fe3312fd58" />
 
 - **Một chuột, nhiều cửa sổ** — nhấp trái, phải, giữa, cuộn và nhấp-và-kéo trong cửa sổ chính được gửi đồng thời sang mọi cửa sổ trong Danh sách đồng bộ. Chỉ đồng bộ chuột, không đồng bộ bàn phím.

@@ -63,7 +63,7 @@ Mouse Synchronization **完全免费**：无需账号、无需激活码、没有
 
 ## 功能
 
-<img width="1052" height="792" alt="Mouse Synchronization" src="https://github.com/user-attachments/assets/57c22608-46a6-4206-adde-aa456440619e" />
+<img width="1100" alt="Mouse Synchronization" src="docs/screenshots/en/main.png" />
 <img width="1919" height="1032" alt="Mouse Synchronization" src="https://github.com/user-attachments/assets/c93fee4f-a696-451e-894b-94fe3312fd58" />
 
 - **一个鼠标，多个窗口**——主控窗口内的左键、右键、中键点击、滚动和按住拖动，会同时发送到同步列表中的每个窗口。只同步鼠标，不同步键盘。

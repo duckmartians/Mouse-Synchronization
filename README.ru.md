@@ -63,7 +63,7 @@ Mouse Synchronization **бесплатна**: без аккаунта, без к
 
 ## Возможности
 
-<img width="1052" height="792" alt="Mouse Synchronization" src="https://github.com/user-attachments/assets/57c22608-46a6-4206-adde-aa456440619e" />
+<img width="1100" alt="Mouse Synchronization" src="docs/screenshots/en/main.png" />
 <img width="1919" height="1032" alt="Mouse Synchronization" src="https://github.com/user-attachments/assets/c93fee4f-a696-451e-894b-94fe3312fd58" />
 
 - **Одна мышь — много окон** — левый, правый и средний щелчки, прокрутка и перетаскивание в ведущем окне одновременно отправляются во все окна из списка синхронизации. Синхронизируется только мышь, не клавиатура.

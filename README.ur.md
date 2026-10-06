@@ -63,7 +63,7 @@ Mouse Synchronization **مفت** ہے: کوئی اکاؤنٹ نہیں، کوئی
 
 ## خصوصیات
 
-<img width="1052" height="792" alt="Mouse Synchronization" src="https://github.com/user-attachments/assets/57c22608-46a6-4206-adde-aa456440619e" />
+<img width="1100" alt="Mouse Synchronization" src="docs/screenshots/en/main.png" />
 <img width="1919" height="1032" alt="Mouse Synchronization" src="https://github.com/user-attachments/assets/c93fee4f-a696-451e-894b-94fe3312fd58" />
 
 - **ایک ماؤس، کئی ونڈوز** — لیڈر ونڈو کے اندر بائیں، دائیں اور درمیانی کلک، اسکرول اور کلک کر کے ڈریگ بیک وقت سِنک فہرست کی ہر ونڈو کو بھیجے جاتے ہیں۔ صرف ماؤس سِنک ہوتا ہے، کی بورڈ نہیں۔

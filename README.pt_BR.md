@@ -63,7 +63,7 @@ Para parar, clique em **Parar sincronização** (ou **Ctrl + 2**). Para uma paus
 
 ## Recursos
 
-<img width="1052" height="792" alt="Mouse Synchronization" src="https://github.com/user-attachments/assets/57c22608-46a6-4206-adde-aa456440619e" />
+<img width="1100" alt="Mouse Synchronization" src="docs/screenshots/en/main.png" />
 <img width="1919" height="1032" alt="Mouse Synchronization" src="https://github.com/user-attachments/assets/c93fee4f-a696-451e-894b-94fe3312fd58" />
 
 - **Um mouse, várias janelas** — cliques esquerdo, direito e do meio, rolagem e clicar e arrastar dentro da janela líder são enviados ao mesmo tempo para todas as janelas da Lista de sincronização. Só o mouse é sincronizado, não o teclado.

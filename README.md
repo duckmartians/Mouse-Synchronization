@@ -63,7 +63,7 @@ To stop, click **Stop sync** (or **Ctrl + 2**). To take a quick break without st
 
 ## Features
 
-<img width="1052" height="792" alt="Mouse Synchronization" src="https://github.com/user-attachments/assets/57c22608-46a6-4206-adde-aa456440619e" />
+<img width="1100" alt="Mouse Synchronization" src="docs/screenshots/en/main.png" />
 <img width="1919" height="1032" alt="Mouse Synchronization" src="https://github.com/user-attachments/assets/c93fee4f-a696-451e-894b-94fe3312fd58" />
 
 - **One mouse, many windows** — left, right and middle clicks, scrolling and click-and-drag inside the leader window are sent at the same time to every window in the Sync list. Only the mouse is synced, not the keyboard.

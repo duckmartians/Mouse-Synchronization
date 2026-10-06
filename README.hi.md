@@ -63,7 +63,7 @@ Mouse Synchronization **मुफ़्त** है: कोई अकाउं�
 
 ## सुविधाएँ
 
-<img width="1052" height="792" alt="Mouse Synchronization" src="https://github.com/user-attachments/assets/57c22608-46a6-4206-adde-aa456440619e" />
+<img width="1100" alt="Mouse Synchronization" src="docs/screenshots/en/main.png" />
 <img width="1919" height="1032" alt="Mouse Synchronization" src="https://github.com/user-attachments/assets/c93fee4f-a696-451e-894b-94fe3312fd58" />
 
 - **एक माउस, कई विंडो** — लीडर विंडो के अंदर लेफ़्ट, राइट और मिडल क्लिक, स्क्रॉल और क्लिक-और-ड्रैग एक साथ सिंक सूची की हर विंडो में भेजे जाते हैं। सिर्फ़ माउस सिंक होता है, कीबोर्ड नहीं।

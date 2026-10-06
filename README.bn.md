@@ -63,7 +63,7 @@ Mouse Synchronization **বিনামূল্যে**: কোনো অ্য
 
 ## বৈশিষ্ট্য
 
-<img width="1052" height="792" alt="Mouse Synchronization" src="https://github.com/user-attachments/assets/57c22608-46a6-4206-adde-aa456440619e" />
+<img width="1100" alt="Mouse Synchronization" src="docs/screenshots/en/main.png" />
 <img width="1919" height="1032" alt="Mouse Synchronization" src="https://github.com/user-attachments/assets/c93fee4f-a696-451e-894b-94fe3312fd58" />
 
 - **এক মাউস, অনেক উইন্ডো** — নেতা উইন্ডোর ভেতরে বাঁ, ডান ও মাঝের ক্লিক, স্ক্রল এবং ক্লিক-করে-টানা একসঙ্গে সিঙ্ক তালিকার প্রতিটি উইন্ডোতে পাঠানো হয়। শুধু মাউস সিঙ্ক হয়, কিবোর্ড নয়।
